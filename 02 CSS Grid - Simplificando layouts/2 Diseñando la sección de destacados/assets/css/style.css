@@ -1,0 +1,25 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "header"
+        "contenido"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto; 
+}
+
+.encabezado {
+
+    
+}
+.contenido {
+    grid-area: contenido;
+    padding: 0 2rem;
+}
+
+.rodapie { 
+
+    
+}
