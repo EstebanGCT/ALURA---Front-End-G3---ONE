@@ -35,7 +35,7 @@ estaAcompanado = false;
 //Aplicando lógica negativa
 if (!(ciudadesDisponibles.indexOf(ciudadDestino) > -1 &&
     (edadPasajero >= 18 || estaAcompanado))) {
-    console.log('Ciudad no disponible para viajar or pasajero no cumple las reglas');
+    console.log('Ciudad no disponible para viajar o pasajero no cumple las reglas');
 } else {
     console.log('Pasaje disponible para venta');
 }
