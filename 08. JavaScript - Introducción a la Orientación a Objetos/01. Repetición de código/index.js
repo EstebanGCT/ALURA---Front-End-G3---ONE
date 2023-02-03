@@ -1,3 +1,33 @@
+/*
+#Utilizo const para definir a mi cliente.
+const nombreCliente = "Leonardo"
+
+Creo un molde para nuestras variables, para ello utilizo class.
+class Cliente { 
+    nombreCliente;
+    dniCliente;
+}
+
+console.log(nombreCliente)  #Lo utilizo apra imprimir nuestra variable
+devuelve Leonardo.
+
+#Creamos nuestro nuevo cliente.
+new Cliente();
+
+#Referenciamos nuestra variable y le atribuimos un valor.
+const cliente1 = new Cliente(); 
+
+#En el caso de objetos los datos o variables que se encuentran dentro de la clase pasan a llamarse atributos o propiedades.
+
+cliente1. #Alli me muestra sus propiedades y atributos a seleccionar.
+
+#Cuando nombro a cliente1 y selecciono un atributo lo que estoy diciendo es que este es parte de ese cliente1. Entonces en este caso Jose es el nombre del cliente 1 ya que le asignamos ese valor a tal atributo.
+cliente1.nombreCliente = "Jose";
+
+#Ahora puedo mostrar de forma sensilla todos los atributos de mi cliente 1
+console.log(cliente1);
+*/
+
 class Cliente
 {
     nombreCliente;
