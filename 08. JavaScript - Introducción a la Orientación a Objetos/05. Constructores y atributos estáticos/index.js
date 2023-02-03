@@ -1,3 +1,15 @@
+/*
+Constructores
+Encapsulamiento
+Atributos estáticos
+
+
+El contructor es esa función que se ejecuta una vez que genero una instancia.
+Los constructores son utilizados para inicializar los atributos. La inicialización de los atributos es la principal responsabilidad de los constructores, pero recordando que se puede ejecutar otras operaciones de igual forma.
+
+static dice que un atributo es comun para todas las instancias de la clase (en este caso todas las cuentas). por lo tanto atribuyo su valor directo a la clase.
+*/
+
 /*Importación de clases*/
 import {Cliente} from './Cliente.js'
 import {CuentaCorriente} from './CuentaCorriente.js';

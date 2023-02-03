@@ -1,3 +1,26 @@
+/*
+Diferencias entre null y undefined
+Gestión de la memoria con mayor detalle.
+Referencias a espacios de memoria
+Asistentes: get y set
+Protección de nuestros atributos
+Mejor encapsulamiento de las clases
+
+
+Utilizamos null para decir que existe pero no esta explicito
+this.cliente = null; (Existe el cliente pero no esta explicito)
+
+set: asigna valores a atributos privados.
+
+get: Sirve para retornar el valor de un atributo privado.
+
+utilizo instanceof para decir que solo si el valor es de la instancia de mi clase. Solo en ese punto es que logro atribuir mi referencia de cliente. De esta forma estoy protegiendo mi clase u mi atributo en este caso Cliente.
+
+Utilizando el asistente set podemos cambiar la regla de cómo un atributo puede o no puede modificarse sin tener que cambiarlo en diferentes puntos del código.  Así que si cambia alguna regla de asignación, sólo necesitamos modificar un lugar. Recordando que de esta forma conseguimos realizar protecciones a los atributos de forma fácil.
+
+El uso del asistente set es una buena práctica para garantizar que la asignación de valores a los atributos sea siempre segura. Siempre debemos mantener tanta encapsulación como sea posible.
+*/
+
 /*Importación de clases*/
 import {Cliente} from './Cliente.js'
 import {CuentaCorriente} from './CuentaCorriente.js';

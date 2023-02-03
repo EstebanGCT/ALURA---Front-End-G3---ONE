@@ -1,4 +1,10 @@
 /*
+Creación de clases
+Qué son los atributos/propiedades de una clase
+Instancia/Objeto de una clase
+Palabras reservadas class y new
+
+
 #Utilizo const para definir a mi cliente.
 const nombreCliente = "Leonardo"
 
