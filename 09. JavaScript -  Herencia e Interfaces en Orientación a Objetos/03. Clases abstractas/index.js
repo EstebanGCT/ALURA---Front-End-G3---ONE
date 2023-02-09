@@ -1,3 +1,10 @@
+/*
+Clases abstractas. las clases abstractas nos permiten encapsular el funcionamiento básico de la clase y nos permite que esa clase solo sea extensible y no sea instanciable de tal manera que ningún programador pueda generar un nuevo objeto de la clase y que tenga necesidad de hacer alguna operación de personalización sobre la clase base.
+
+Esa clase abstracta es aquella que no se puede instanciar, no se puede hacer new, solo se debe hacer extend, solo se debe extender. 
+*/
+
+
 /*Importación de clases*/
 import {Cliente} from './Cliente.js'
 import {CuentaCorriente} from './CuentaCorriente.js';

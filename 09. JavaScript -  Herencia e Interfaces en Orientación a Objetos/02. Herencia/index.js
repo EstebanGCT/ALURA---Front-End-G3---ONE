@@ -1,3 +1,13 @@
+/* 
+Especialización de las clases
+Tenemos una clase con un comportamiento genérico, pero debemos darle reglas de negocio o especializaciones a esas clases para que no afecte en este caso a todas las cuentas.
+
+En el caso de la programación orientada a objetos, la herencia es que una clase pueda tomar toda la funcionalidad de otra clase, a partir de que se defina como hija, o en el caso de JavaScript se defina como que se extiende. Entonces eso nos permite entender este primer punto que tenemos que es extender la clase.
+
+
+*/
+
+
 /*Importación de clases*/
 import {Cliente} from './Cliente.js'
 import {CuentaCorriente} from './CuentaCorriente.js';
