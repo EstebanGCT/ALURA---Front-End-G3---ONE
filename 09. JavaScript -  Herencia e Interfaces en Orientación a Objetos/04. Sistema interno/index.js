@@ -1,6 +1,7 @@
 /*
+Polimorfismo es cuando tienes una función, tienes un método o tienes un atributo que se llama de igual forma en diferentes clases, solo que estas clases no están relacionadas entre sí en un esquema de herencia sino que son clases que están separadas, que se pueden gestionar de manera individual y ellas tienen un método nombrado de la misma forma que nos va a permitir ejecutar ese método de diferentes formas.
 
-
+Entonces el concepto de polimorfismo es gestión de métodos, gestión de atributos de diferentes formas.
 */
 
 
