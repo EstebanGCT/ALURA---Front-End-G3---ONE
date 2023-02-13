@@ -1,20 +1,23 @@
 Lo aprendido durante el desarrollo:
 
-Utilizar el componente de calendario
-Manipular fechas
-Destructurar objetos en JavaScript
+Hacer requisiciones utilizando xmlhttprequest.
+Lidias con las promises.
+Hacer una requisición http utilizando xmlhttprequest para buscar todos los clientes del servidor.
+Refactorizar el código utilizando promises mejorando su lectura.
+Utilizar template literals para crear un template html.
 
-Guardar las tareas en el navegador utilizando SessionStorage
-Almacenar las tareas con LocalStorage
-Transformar objetos en string utilizando JSON.stringify()
+Entender el orden de ejecución del código JavaScript.
+Jalar los datos del servidor utilizando la función fetch api al invés de xmlhttprequest para modernizar el código.
+Refactorizar las responsabilidades del código pensando en la manutención de la aplicación en el futuro.
 
-Recorrer el arreglo con forEach() de las tareas guardadas en LocalStorage
-Utilizar pipe
-Convertir las tareas almacenadas en formato string a objetos con JSON.parse()
+Usar el método closest para encontrar el elemento del DOM más próximo al cual queremos remover.
+Crear un cliente utilizando el verbo http POST.
+Remover un elemento del dom con el método remove().
+Borrar un cliente utilizando el verbo http DELETE.
 
-Filtrar elementos de un arreglo
-Ordenar los elementos del LocalStorage
+Hacer una query string utilizando la propiedad serachParams.get() para encontrar un id.
+Crear una IIFE o función autoejecutable.
+Editar los datos utilizando el verbo http PUT.
 
-Cambiar un estado utilizando operador de negación
-Eliminar datos del LocalStorage utilizando el método splice
-Subir nuestro proyecto a Github Pages
+Utilizar async/await para indicar funciones asíncronas.
+Tratar los errores con try/catch.
